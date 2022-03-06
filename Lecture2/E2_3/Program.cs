@@ -1,11 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿/// See https://aka.ms/new-console-template for more information
 
-int Add(int x1, int x2){
+int Add(int x1, int x2)
+{
     int sum = x1 + x2;
     return sum;
 }
 
-int Multiply(int x1,int  x2){
+int Multiply(int x1, int x2)
+{
     int multi = x1 * x2;
     return multi;
 }
@@ -18,7 +20,7 @@ int Subtract(int x1, int x2)
 
 int Divide(int x1, int x2)
 {
-    int deling = x1/x2;
+    int deling = x1 / x2;
     return deling;
 }
 
@@ -35,4 +37,3 @@ Console.WriteLine(result);
 
 result = Divide(result, 3);
 Console.WriteLine(result);
-

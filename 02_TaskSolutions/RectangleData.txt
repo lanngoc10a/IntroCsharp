@@ -1,0 +1,2 @@
+"shortSide": 2
+"longSide": 3
